@@ -13,6 +13,14 @@ Or copy it into one of these folders for installing it system-wide:
 
 (might require to make the downloaded file executable with `chmod +x`)
 
+To install in a Linux amd64 environment, do the following:
+
+```sh
+mkdir -p /usr/local/lib/docker/cli-plugins/
+curl -SL https://github.com/sig9org/docker-purge/releases/download/v0.0.1/docker-purge_v0.0.1_linux_amd64 -o /usr/local/lib/docker/cli-plugins/docker-purge
+chmod +x /usr/local/lib/docker/cli-plugins/docker-purge
+```
+
 ## Quick Start
 
 To stop all containers, do the following:
